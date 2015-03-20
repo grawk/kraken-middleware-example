@@ -49,22 +49,6 @@
                 "name": "engine-munger/lib/expressView"
             }
         },
-        "beforeSquirrel": {
-            "priority": 118,
-            "enabled": false,
-            "module": {
-                "name": "path:./middleware/conmid",
-                "method": "bs"
-            }
-        },
-        "afterSquirrel": {
-            "priority": 121,
-            "enabled": false,
-            "module": {
-                "name": "path:./middleware/conmid",
-                "method": "as"
-            }
-        },
         "risk": {
             "priority": 119,
             "enabled": true,
