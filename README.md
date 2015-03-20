@@ -6,6 +6,8 @@ middleware via `config.json`
 Available routes on this app:
 
 * /
+* /foo/login
+* /foo/bar
 * /login
 * /logout
 * /login/failure
@@ -15,7 +17,7 @@ Available routes on this app:
 
 ## Whitelisting
 
-Apply this middleware only for routes /account, /create, /addCard, /addBank
+Apply this middleware only for routes /account*, /create*, /addCard*, /addBank*
 
 ```javascript
 "risk": {
@@ -31,7 +33,7 @@ Apply this middleware only for routes /account, /create, /addCard, /addBank
 
 ## Blacklisting
 
-Apply to routes EXCEPT /login and /logout
+Apply to routes EXCEPT /login* and /logout*
 ```javascript
 "autho": {
     "priority": 122,

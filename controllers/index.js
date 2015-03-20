@@ -13,6 +13,14 @@ module.exports = function (router) {
         req.model = {name: '/login'};
         next();
     });
+    router.get('/foo/login', function(req, res, next) {
+        req.model = {name: '/login'};
+        next();
+    });
+    router.get('/foo/bar', function(req, res, next) {
+        req.model = {name: '/login'};
+        next();
+    });
     router.get('/logout', function(req, res, next) {
         req.model = {name: '/logout'};
         next();

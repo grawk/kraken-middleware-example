@@ -51,7 +51,7 @@
         },
         "beforeSquirrel": {
             "priority": 118,
-            "enabled": true,
+            "enabled": false,
             "module": {
                 "name": "path:./middleware/conmid",
                 "method": "bs"
@@ -59,7 +59,7 @@
         },
         "afterSquirrel": {
             "priority": 121,
-            "enabled": true,
+            "enabled": false,
             "module": {
                 "name": "path:./middleware/conmid",
                 "method": "as"
