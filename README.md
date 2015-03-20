@@ -1,4 +1,4 @@
-# routy
+# kraken-middleware-example
 
 Illustrates whitelisting and blacklisting of routes using the `route` property when registering 
 middleware via `config.json`
